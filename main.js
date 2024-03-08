@@ -237,8 +237,8 @@ void main() {
 }
 async function main() {
     // Setup basic renderer, controls, and profiler
-    const clientWidth = window.innerWidth; //window.innerWidth * 0.99;
-    const clientHeight = window.innerHeight; //window.innerHeight * 0.98;
+    const clientWidth = 512;//window.innerWidth; //window.innerWidth * 0.99;
+    const clientHeight = 512;//window.innerHeight; //window.innerHeight * 0.98;
     const giScale = 0.25;
     const scene = new THREE.Scene();
     const camera = new THREE.PerspectiveCamera(75, clientWidth / clientHeight, 0.1, 1000);
